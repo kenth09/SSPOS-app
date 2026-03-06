@@ -1,6 +1,6 @@
-# Smart Solar Tracker (SSOPS)
+# Smart Solar Panel Orientation System (SSOPS)
 
-Android app + Arduino firmware for solar panel tracking and monitoring.
+Android app + Arduino firmware for solar panel tracking, orientation, and monitoring.
 
 ## Project structure
 
@@ -27,7 +27,7 @@ Android app + Arduino firmware for solar panel tracking and monitoring.
 
 ## Network / Device API
 
-The app uses an HTTP API (Retrofit). Make sure the device IP/base URL is set (default `192.168.1.100`).
+The app uses an HTTP API (Retrofit). Make sure the device IP/base URL is set (default `192.168.1.4`).
 
 ### Endpoints
 
@@ -48,3 +48,5 @@ The app uses an HTTP API (Retrofit). Make sure the device IP/base URL is set (de
 ```json
 { "angle": 10 }
 ```
+
+
